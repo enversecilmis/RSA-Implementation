@@ -1,11 +1,4 @@
 const { areCoprimes, modularExponentiation, getPairOfPrimes } = require("./utils");
-// p q random primes
-// N = p*q
-// pN = (p-1)*(q-1)
-// e => 1 < e < pN, e coprime with N and pN
-// d => e*d % pN == 1 
-//   =>  d == (k*pN+1)/e
-//   => k*pN+1 % e == 0
 
 
 const getRSAKeyPair = () => {
